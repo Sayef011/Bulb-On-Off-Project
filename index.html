@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Electronics Testing</title>
+
+    <!-- linking google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"
+      rel="stylesheet"
+    />
+
+    <!-- LINKING CSS FILES -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+  <body>
+    <!-- NAVBAR SECTION HERE -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="#"><span>El</span>actro</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">Products</a>
+            </li>
+           
+            <li class="nav-item">
+              <a class="nav-link">Pages</a>
+            </li>
+          </ul>
+
+          
+         <div class="login-option">
+          <button class="Btn-primary login">Login
+        <div class="loginpage">
+          <div class="wrapper">
+            <label for="email">Email Or Phone</label>
+            <input id="email" type="email" placeholder="Enter Your Email And Phone">
+
+            <label id="passwordeye" for="password">Password
+            <input id="password" type="password" placeholder="Password">
+            <a class="eye-btn"><i class="bi bi-eye"></i></a>
+          </label>
+          <div class="row">
+            
+              <input type="checkbox" checked id="Remember"><label for="Remember" class="remember">Remember Me</label>
+             
+              <a href="#">Forgetten Password</a>
+          </div>
+
+          <a class="btn-danger submitBtn" href="#">Login</a>
+
+          </div>
+        </div>
+          </button>
+
+          <button class="Btn-primary">Sign Up</button>
+         </div>
+        </div>
+      </div>
+    </nav>
+    <!-- NAVBAR SECTION END -->
+    <!-- BULB SECTION -->
+    <section id="bulbOnOff">
+      <div class="container d-flex justify-content-center">
+        <div class="row">
+          <div class="col-lg-12 light">
+            <img
+              id="bulb"
+              src="images/bulb-trun-off webp.webp"
+              alt=""
+              class="img-fluid"
+            />
+          </div>
+          <div class="col-lg-12 light-content">
+            <h2>Blub</h2>
+            <p class="lead">
+              LED lightbulbs are very energy-efficient compared with
+              incandescent lightbulbs. An incandescent lightbulb emits almost as
+              much heat as light: 95% of the energy used by an incandescent
+              lightbulb turns into heat, while only 5% becomes visible light. By
+              comparison, an LED bulb converts around 80% of the energy into
+              light.
+            </p>
+          </div>
+          <div class="col-lg-12 Allbtn">
+            <button id="lighton" class="btn btn-light">On</button>
+            <button id="lightoff" class="btn btn-dark">Off</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- BULB SECTION END-->
+
+    <section id="fanOnOff">
+      <div class="container d-flex justify-content-center">
+        <div class="row align-items-center">
+          <div class="col-lg-5 fan">
+            <img
+              id="fanImg"
+              src="images/turn-off-fan-2.png"
+              alt=""
+              class="img-fluid"
+            />
+          </div>
+          <div class="col-lg-7 fanctn">
+            <h2>Table <span>Fan</span></h2>
+            <p class="lead">
+              Table fans consume less electricity, and some models even come
+              with energy-saving modes. If you have limited floor space, you can
+              go for wall mounted fans. Such fans also deliver a strong airflow,
+              and you can also use them for ventilating rooms. They are easy to
+              install and can also be removed when needed.
+            </p>
+            <div class="fanAllbtn">
+              <button id="fanOn" class="btn btn-light">On</button>
+              <button id="fanOff" class="btn btn-dark">Off</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- FAN SECTION END -->
+    <!-- Tv SECTION HERE -->
+    <section id="tvOnOff">
+      <div class="container d-flex justify-content-center">
+        <div class="row align-items-center">
+          <div class="col-lg-7 tvctn order-lg-1 order-2">
+            <h2>Smart <span>Tv</span></h2>
+            <p class="lead">
+              Table fans consume less electricity, and some models even come
+              with energy-saving modes. If you have limited floor space, you can
+              go for wall mounted fans. Such fans also deliver a strong airflow,
+              and you can also use them for ventilating rooms. They are easy to
+              install and can also be removed when needed.
+            </p>
+            <div class="tvAllbtn">
+              <button id="tvOff" class="btn btn-dark">Off</button>
+              <button id="tvOn" class="btn btn-light">On</button>
+            </div>
+          </div>
+
+          <div class="col-lg-5 tv order-1 order-lg-2">
+            <img
+              id="tvImg"
+              src="images/tv-off-2.png"
+              alt=""
+              class="img-fluid"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Tv SECTION END -->
+
+    <!-- OUR PRODUCT SECTION HERE -->
+    <section id="products">
+      <div class="container">
+        <div class="header-text">
+          <h2>Our Products</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit odit
+            blanditiis inventore id culpa aliquam quia voluptatibus cum expedita
+            sit?
+          </p>
+        </div>
+        <div class="row">
+          <div class="col col-lg-3 card">
+            <div class="card-img">
+              <img src="images/products-1.webp" alt="" class="img-fluid" />
+              <span class="discountlebel">-34%</span>
+            </div>
+            <div class="card-content">
+              <h4>Pond’s Super Light Gel Moisturiser 98g</h4>
+              <p class="price">৳ 276 <span>৳ 420</span></p>
+              <div class="counter d-flex">
+                <span>Quantity</span>
+                <button class="increment">+</button>
+                <input type="number" value="1" min="1"/>
+                <button class="decrement">-</button>
+              </div>
+              <div class="cart-btn d-flex justify-content-between">
+                <button class="btn btn-primary">Buy Now</button>
+                <button class="btn btn-danger">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col col-lg-3 card">
+            <div class="card-img">
+              <img src="images/product-2.webp" alt="" class="img-fluid" />
+              <span class="discountlebel">-20%</span>
+            </div>
+            <div class="card-content">
+              <h4>Lux Body Wash Orange Blossom & Vitamin C 245ml</h4>
+              <p class="price">৳ 159 <span>৳ 200</span></p>
+              <div class="counter d-flex">
+                <span>Quantity</span>
+                <button class="increment increment1">+</button>
+                <input type="number" value="1" min="1" class="counterInput1"/>
+                <button class="decrement decrement1">-</button>
+              </div>
+              <div class="cart-btn d-flex justify-content-between">
+                <button class="btn btn-primary">Buy Now</button>
+                <button class="btn btn-danger">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+
+
+
+
+          <div class="col col-lg-3 card">
+            <div class="card-img">
+              <img src="images/product-3.webp" alt="" class="img-fluid" />
+              <span class="discountlebel">-20%</span>
+            </div>
+            <div class="card-content">
+              <h4>Haier 7kg Top Load Automatic Washing Machine</h4>
+              <p class="price">৳ 23,486 <span>৳ 29,400</span></p>
+              <div class="counter d-flex">
+                <span>Quantity</span>
+                <button class="increment increment2">+</button>
+                <input type="number" value="1" min="1" class="counterInput2"/>
+                <button class="decrement decrement2">-</button>
+              </div>
+              <div class="cart-btn d-flex justify-content-between">
+                <button class="btn btn-primary">Buy Now</button>
+                <button class="btn btn-danger">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+
+          
+          <div class="col-12 col-lg-3 card">
+            <div class="card-img">
+              <img src="images/product-4.webp" alt="" class="img-fluid" />
+              <span class="discountlebel">-4%</span>
+            </div>
+            <div class="card-content">
+              <h4>TECNO SPARK Go 1 Smart Phone 8gb/128gb </h4>
+              <p class="price">৳ 11,999 <span>৳ 12,499</span></p>
+
+              <div class="counter d-flex">
+                <span>Quantity</span>
+                <button class="increment increment3">+</button>
+                <input type="number" value="1" min="1" class="counterInput3"/>
+                <button class="decrement decrement3">-</button>
+              </div>
+
+              <div class="cart-btn d-flex justify-content-between">
+                <button class="btn btn-primary">Buy Now</button>
+                <button class="btn btn-danger">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- OUR PRODUCT SECTION END -->
+
+
+    <!-- BOOTSTRAP ICON -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- LINKING JS FILES -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

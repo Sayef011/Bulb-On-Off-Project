@@ -1,0 +1,39 @@
+@media (max-width:767px){
+    .light-content {
+        right: 0px;
+        text-align: center;
+        top: 460px;
+        visibility: visible;
+    }
+    #bulbOnOff .container .row {
+        margin-bottom: 290px;
+    }
+    #fanOnOff {
+        height: 800px;
+        margin-bottom: 30px;
+    }
+    .col-lg-7.fanctn {
+        margin-bottom: 80px;
+        text-align: center;
+    }
+    .tvctn{
+        text-align: center;
+    }
+    /* BIKE SECTION */
+    #bikeonOff {
+        height: 250px;
+    }
+    #bikeonOff {
+        height: 200px;
+    }
+    .container .header-text p {
+        width: 300px;
+    }
+    .card {
+    width: auto;
+    margin: 20px 0px 20px;
+    }
+    .card-content h4 {
+        font-size: 18px;
+    }
+}

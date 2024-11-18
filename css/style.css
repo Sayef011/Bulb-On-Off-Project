@@ -1,0 +1,399 @@
+:root{
+    --bg-color: #22232396;
+    --font-family: "poppins",serif;
+    --secondary-color: tomato;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: var(--bg-color);
+    font-family: var(--font-family);
+}
+/* NAVBAR SECTION HERE */
+.navbar{
+    background-color: white;
+}
+.navbar-brand{
+    font-size: 30px;
+    font-weight: 600;
+}
+.navbar-brand span{
+    font-size: 35px;
+    color: var(--secondary-color);
+    font-weight: 800;
+}
+.navbar-nav .nav-item .nav-link {
+    padding: 15px 15px;
+    font-size: 18px;
+    font-weight: 500;
+    transition: all .3s !important;
+}
+.navbar-nav .nav-item .nav-link:hover{
+    color: #e74a2e;
+}
+.login-option .Btn-primary:hover {
+    background-color: #e74a2e;
+}
+.active{
+    color: var(--secondary-color)!important;
+    font-weight: 700 !important;
+}
+.login-option .Btn-primary {
+    outline: none;
+    border: none;
+    background-color: var(--secondary-color);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 0 5px;
+}
+.login{
+    position: relative;
+}
+.dropdown{
+    display: visible;
+}
+.loginpage {
+    position: absolute;
+    background-color: var(--bg-color);
+    width: 350px;
+    right: 0;
+    transform: translateX(20px);
+    top: 71px;
+    padding: 30px 20px;
+    border-radius: 10px;
+    visibility: hidden;
+}
+.dropdown {
+    position: absolute;
+    background-color: var(--bg-color);
+    width: 350px;
+    right: 0;
+    transform: translateX(20px);
+    top: 71px;
+    padding: 30px 20px;
+    border-radius: 10px;
+    display: visible;
+}
+.loginpage:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    right: 46px;
+    top: -24px;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 25px solid var(--bg-color);
+}
+.wrapper{
+   text-align: left;
+}
+.loginpage label{
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.loginpage input {
+    padding: 10px 30px;
+    outline: none;
+    font-size: 15px;
+    font-weight: 500;
+    width: 300px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+}
+input#Remember {
+    transform: translateX(-130px);
+}
+label.remember {
+    /* display: contents; */
+    font-size: 16px;
+    transform: translateX(23px) translateY(-28px);
+}
+.loginpage .wrapper .row {
+    /* display: flex; */
+    /* align-items: center; */
+    height: 42px;
+}
+.loginpage .wrapper .row a {
+    display: inline-block;
+    text-align: right;
+    text-decoration: none;
+    font-size: 13px;
+    transform: translateY(-54px) translateX(-12px);
+}
+.loginpage .wrapper .btn-danger {
+    background-color: tomato;
+    padding: 10px 127px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+#passwordeye{
+    position: relative;
+}
+#passwordeye i{
+    position: absolute;
+    transform: translateX(-30px) translateY(10px);
+    color: black;
+    cursor: pointer;
+}
+/* NAVBAR SECTION END */
+#bulb {
+    width: 300px;
+    height: 320px;
+    margin: 0px 0 50px;
+    transform: rotate(180deg);
+    display: block;
+}
+.light{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.Allbtn {
+    text-align: center;
+    height: 0;
+    display: inline-block;
+}
+.btn{
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0 5px;
+  
+}
+#bulbOnOff .container .row{
+    position: relative;
+}
+#bulbOnOff{
+    margin-bottom: 200px;
+}
+.light-content{
+    /* width: 500px; */
+    position: absolute;
+    right: 480px;
+    top: 150px;
+    visibility: hidden;
+}
+.light-content h2{
+    font-size: 52px;
+font-weight: 800;
+}
+.light-content .lead{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 200%;
+    text-align: justify;
+    margin: 20px 0;
+}
+/* BULB SCREEN SECTION END */
+
+/* FAN SECTION HERE */
+#fanOnOff{
+    display: flex;
+    background-color: #fff;
+    height: 600px;
+}
+#fanImg{
+    width: 100%;
+}
+.fanctn h2{
+font-size: 52px;
+font-weight: 800;
+}
+.fanctn h2 span{
+    color: var(--secondary-color);
+}
+.fanctn .lead{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 200%;
+    text-align: justify;
+    margin: 20px 0;
+}
+.fanAllbtn{
+    display: inline-block;
+    height: 0;
+}
+#fanOn {
+    padding: 10px 40px;
+    background-color: var(--secondary-color);
+    margin: 0;
+    color: #fff;
+}
+#fanOff{
+    padding: 10px 40px;
+}
+/* FAN SECTION END */
+
+/* TV SECTION */
+#tvOnOff{
+    display: flex;
+}
+#tvOnOff .container .row{
+    justify-content: space-between;
+}
+#tvImg{
+    width: 100%;
+}
+.tvctn h2{
+    font-size: 52px;
+    font-weight: 800;
+    }
+    .tvctn h2 span{
+        color: var(--secondary-color);
+    }
+
+    .tvctn .lead{
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 200%;
+        text-align: justify;
+        margin: 20px 0;
+    }
+    .tvAllbtn{
+        display: inline-block;
+        height: 0;
+    }
+    #tvOn{
+        padding: 10px 40px;
+        margin: 0 10px 0;
+    }
+    #tvOff{
+        padding: 10px 40px;
+        margin: 0;
+    }
+    
+ 
+/* TV SECTION END */
+
+  /*-- OUR PRODUCT SECTION HERE */
+  #products{
+    background-color: #fff;
+  }
+    .container .header-text{
+        text-align: center;
+
+    }
+  .container .header-text h2{
+    font-size: 40px;
+    font-weight: 700;
+    margin: 120px 0 16px;
+    display: inline-block;
+  }
+.container .header-text p {
+    font-size: 18px;
+    font-weight: 500;
+    color: #22232396;
+    width: 471px;
+    margin: auto;
+}
+.discountlebel{
+    position: absolute;
+    background-color: var(--secondary-color);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 15px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 24px;
+    left: 24px;
+    color: #fff;
+    
+}
+.card {
+    margin: 20px 5px 20px;
+    padding: 0;
+    transition: all .3s;
+    width: calc(25% - 10px);
+}
+.card:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.card-img{
+border-bottom: 1px solid #ddd;
+position: relative;
+}
+.card-content{
+    padding: 10px 10px;
+}
+.card-content h4 {
+    font-size: 20px;
+    font-weight: 600;
+}
+.card-content .price{
+color: var(--secondary-color);
+font-size: 22px;
+font-weight: 600;
+margin: 16px 10px 16px 0;
+}
+.card-content .price span{
+color: #22232396;
+text-decoration: line-through;
+font-size: 15px;
+font-weight: 600;
+/* margin-left: 5px; */
+}
+.counter {
+    width: 300px;
+    margin-bottom: 25px;
+    align-items: center;
+}
+
+.counter span{
+    font-size: 18px;
+    font-weight: 600;
+    margin-right: 20px;
+}
+button.increment {
+    width: 30px;
+    font-size: 25px;
+    font-weight: 500;
+    border: none;
+    background-color: #e7e4e4;
+
+}
+button.decrement {
+    width: 30px;
+   font-size: 25px;
+    font-weight: 500;
+    border: none;
+    background: transparent;
+    background-color: #f0eeee;
+}
+.counter input{
+    padding: 5px;
+    text-align: center;
+    width: 60px;
+    border: none;
+    outline: none;
+}
+.btn {
+    padding: 10px 25px;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0 0px;
+}
+.cart-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+  /*-- OUR PRODUCT SECTION END */
